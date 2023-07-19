@@ -168,7 +168,6 @@ div.voyages{
     justify-content: space-evenly ;
     margin: 50px;
     background-size: cover;
-    height: 80vh;
     padding: 25px;
     margin : 0px;
     height: 150px;
@@ -442,10 +441,12 @@ h2.competence::before{
     border-radius: 1000px;
     box-shadow: 0 0 10px black;
     background-color: #f5ededdf;
-    transform: translate(50px, 0);
+    transform: translate(0px, 0);
     shape-outside: margin-box;
     background-size: cover;
     flex-grow: 1;
+    flex: 1;
+    justify-content: space-between;
     
     
 }
@@ -511,9 +512,12 @@ p.quatre{
     background-size: cover;
     border-radius: 102px;
     shape-outside: margin-box;
+    background-color: #ffffff;
+
 }
 
 img.carre{
+    
     width: 200px;
     height: 200px;
     object-fit: cover;
@@ -523,6 +527,9 @@ img.carre{
     margin: 0 20px;
     animation: pulse 1.3s infinite;
     display: flex;
+    border-radius: 100px;
+    flex: 1;
+    
 
 }
 @keyframes pulse{
