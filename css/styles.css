@@ -638,6 +638,7 @@ button::after{
 button:hover::after{
     transform: rotate(150deg);
 
+    
 }
 
 button:hover{
