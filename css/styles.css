@@ -184,6 +184,18 @@ div.buttons{
     height: 100px;
     display: inline;
     position: relative;
+    transform: translate(-50px, 0px);
+}
+.bac1{
+    transform: translate(-200px, 0px);
+}
+.imager-etude2-0{
+    transform: translate(-100px, -17px);
+}
+
+.bac2{
+    transform: translate(350px, -160px);
+
 }
 
 div.p{
@@ -560,11 +572,11 @@ footer a.cgv{
 /* carte du monde */
 
 div.word-map{
-    background: url("../images/monde.jpg");
+ 
     background-size: cover;
-    height: 80vh;
+    height: 8vh;
     padding: 25px;
-    box-shadow: 0 0 10px black;
+    box-shadow: 0 0 10px rgb(255, 255, 255);
     border-radius: 102px;
     margin: 50px;
     display: flex;
